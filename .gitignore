@@ -1,0 +1,16 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+
+# data — never commit datasets
+datasets/
+*.csv
+*.tgz
+
+# notebook cruft
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
